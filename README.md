@@ -29,8 +29,10 @@ If you want to start open-webai at boot follow these instructions.  These comman
 Access open-webui with your browser at http://localhost:8080.  You could also provide the hostname instead of localhost.
 You may need to open the port in the firewall.  In my case, open-webui uses port 8080.  To open this port, run firewall-cmd:
 
-```firewall-cmd --add-port=8080/tcp```
+```sudo firewall-cmd --add-port=8080/tcp```
+
 and then
-```firewall-cmd --runtime-to-permanent```
+
+```sudo firewall-cmd --runtime-to-permanent```
 
 That should be it.  Enjoy!
