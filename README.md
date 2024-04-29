@@ -15,7 +15,7 @@ How I installed ollama and llama3 on my Fedora 39 system so I have my own person
 THe ollama install will set up a systemd service for you that will automatically restart at boot.  You can also install ollama in a podman container but that is beyond this write-up.
 
 If you want to start open-webai at boot follow these instructions.  These commands are run as a user, not as root.
-1. ```cd to ~/.config/systemd/user/```
+1. ```cd ~/.config/systemd/user/```
 2. Generate the systemd unit file
    
    ```podman generate systemd --new --files --name open-webui```
